@@ -2,7 +2,7 @@ name: mengshufanji
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
+    - cron: '56 3/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: mengshufanji
         env:
-          wlx742: ${{ secrets.wlx742 }}
+          s86042: ${{ secrets.s86042 }}
         run: |
-          echo $wlx742 | jq -r .chd2 | /bin/bash
-          echo $yyvyv2027 | jq -r .mu8660 | /bin/bash
-          echo $if59102 | jq -r .rfrwk811 | /bin/bash
-          echo $dlnv30 | jq -r .g6769 | /bin/bash
-          echo $pjaex2 | jq -r .qwu33835 | /bin/bash
-          echo $kc46 | jq -r .odchz45 | /bin/bash
-          echo $osg27654 | jq -r .msdg30 | /bin/bash
-          echo $qi2632 | jq -r .f2796 | /bin/bash
-          echo $np724 | jq -r .qxo01 | /bin/bash
-          echo $a9 | jq -r .j8 | /bin/bash
-          echo $whgar980 | jq -r .mg69 | /bin/bash
-          echo $h557 | jq -r .moi473 | /bin/bash
+          echo $s86042 | jq -r .bdqcm8 | /bin/bash
+          echo $kfn80 | jq -r .d432 | /bin/bash
+          echo $lrqdl457 | jq -r .fhf7 | /bin/bash
+          echo $t090 | jq -r .qzg165 | /bin/bash
+          echo $cfpe1 | jq -r .s68441 | /bin/bash
+          echo $lunat0641 | jq -r .hb75585 | /bin/bash
+          echo $y8562 | jq -r .ua9872 | /bin/bash
 
