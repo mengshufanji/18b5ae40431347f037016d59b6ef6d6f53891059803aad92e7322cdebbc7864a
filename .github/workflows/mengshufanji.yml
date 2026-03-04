@@ -2,7 +2,8 @@ name: mengshufanji
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
+    - cron: '52 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: mengshufanji
         env:
-          axw870: ${{ secrets.axw870 }}
+          qrhvt28: ${{ secrets.qrhvt28 }}
         run: |
-          echo $axw870 | jq -r .pse15597 | /bin/bash
-          echo $ndunj9820 | jq -r .w1540 | /bin/bash
-          echo $ufml77 | jq -r .fy29010 | /bin/bash
-          echo $xdn80 | jq -r .bgxm6 | /bin/bash
-          echo $o5616 | jq -r .pk6 | /bin/bash
-          echo $vzwn41864 | jq -r .kgfc25 | /bin/bash
-          echo $f8423 | jq -r .w0 | /bin/bash
+          echo $qrhvt28 | jq -r .i5778 | /bin/bash
+          echo $bx55 | jq -r .ftwun08469 | /bin/bash
+          echo $tdxu68723 | jq -r .pwzlc71 | /bin/bash
+          echo $mnqzz0 | jq -r .mehh82 | /bin/bash
+          echo $yr0845 | jq -r .uajw07 | /bin/bash
+          echo $d54 | jq -r .juyrl11257 | /bin/bash
+          echo $vi1 | jq -r .hklx328 | /bin/bash
+          echo $nds8737 | jq -r .yu67 | /bin/bash
+          echo $fxwjc14622 | jq -r .re971 | /bin/bash
+          echo $cjef90302 | jq -r .uylg731 | /bin/bash
+          echo $seym9277 | jq -r .srqlt9 | /bin/bash
 
